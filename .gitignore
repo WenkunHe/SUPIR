@@ -5,3 +5,5 @@ llava-v1.5-13b
 clip-vit-large-patch14
 clip-vit-large-patch14-336
 *__pycache__*
+*.tar
+*tmp*

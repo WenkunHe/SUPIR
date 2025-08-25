@@ -1,0 +1,387 @@
+Building a Downsample layer with 2 dims.
+  --> settings are: 
+ in-chn: 320, out-chn: 320, kernel-size: 3, stride: 2, padding: 1
+constructing SpatialTransformer of depth 2 w/ 640 channels and 10 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 2. Setting context_dim to [2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 10 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 2048 and using 10 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 10 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 2048 and using 10 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+constructing SpatialTransformer of depth 2 w/ 640 channels and 10 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 2. Setting context_dim to [2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 10 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 2048 and using 10 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 10 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 2048 and using 10 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Building a Downsample layer with 2 dims.
+  --> settings are: 
+ in-chn: 640, out-chn: 640, kernel-size: 3, stride: 2, padding: 1
+constructing SpatialTransformer of depth 10 w/ 1280 channels and 20 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 10. Setting context_dim to [2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+constructing SpatialTransformer of depth 10 w/ 1280 channels and 20 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 10. Setting context_dim to [2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+constructing SpatialTransformer of depth 10 w/ 1280 channels and 20 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 10. Setting context_dim to [2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+constructing SpatialTransformer of depth 10 w/ 1280 channels and 20 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 10. Setting context_dim to [2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+constructing SpatialTransformer of depth 10 w/ 1280 channels and 20 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 10. Setting context_dim to [2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+constructing SpatialTransformer of depth 10 w/ 1280 channels and 20 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 10. Setting context_dim to [2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+constructing SpatialTransformer of depth 2 w/ 640 channels and 10 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 2. Setting context_dim to [2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 10 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 2048 and using 10 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 10 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 2048 and using 10 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+constructing SpatialTransformer of depth 2 w/ 640 channels and 10 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 2. Setting context_dim to [2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 10 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 2048 and using 10 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 10 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 2048 and using 10 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+constructing SpatialTransformer of depth 2 w/ 640 channels and 10 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 2. Setting context_dim to [2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 10 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 2048 and using 10 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 10 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 2048 and using 10 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 640 and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 320 and using 10 heads with a dimension of 64.
+Initialized embedder #0: FrozenCLIPEmbedder with 123060480 params. Trainable: False
+Initialized embedder #1: FrozenOpenCLIPEmbedder2 with 694659841 params. Trainable: False
+Initialized embedder #2: ConcatTimestepEmbedderND with 0 params. Trainable: False
+Initialized embedder #3: ConcatTimestepEmbedderND with 0 params. Trainable: False
+Initialized embedder #4: ConcatTimestepEmbedderND with 0 params. Trainable: False
+making attention of type 'vanilla-xformers' with 512 in_channels
+building MemoryEfficientAttnBlock with 512 in_channels...
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla-xformers' with 512 in_channels
+building MemoryEfficientAttnBlock with 512 in_channels...
+Building a Downsample layer with 2 dims.
+  --> settings are: 
+ in-chn: 320, out-chn: 320, kernel-size: 3, stride: 2, padding: 1
+constructing SpatialTransformer of depth 2 w/ 640 channels and 10 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 2. Setting context_dim to [2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 10 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 2048 and using 10 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 10 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 2048 and using 10 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+constructing SpatialTransformer of depth 2 w/ 640 channels and 10 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 2. Setting context_dim to [2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 10 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 2048 and using 10 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is None and using 10 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 640, context_dim is 2048 and using 10 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Building a Downsample layer with 2 dims.
+  --> settings are: 
+ in-chn: 640, out-chn: 640, kernel-size: 3, stride: 2, padding: 1
+constructing SpatialTransformer of depth 10 w/ 1280 channels and 20 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 10. Setting context_dim to [2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+constructing SpatialTransformer of depth 10 w/ 1280 channels and 20 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 10. Setting context_dim to [2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+constructing SpatialTransformer of depth 10 w/ 1280 channels and 20 heads
+WARNING: SpatialTransformer: Found context dims [2048] of depth 1, which does not match the specified 'depth' of 10. Setting context_dim to [2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048] now.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is None and using 20 heads with a dimension of 64.
+Setting up MemoryEfficientCrossAttention. Query dim is 1280, context_dim is 2048 and using 20 heads with a dimension of 64.
+BasicTransformerBlock is using checkpointing
+Loaded model config from [options/SUPIR_v0.yaml]
+Loaded state_dict from [sd_xl_base_1.0_0.9vae.safetensors]
+Loaded state_dict from [SUPIR-v0Q.ckpt]
+Loading vision tower: openai/clip-vit-large-patch14-336
+0 70
+1b7f27ef-a7bd-4326-a62a-d0c24bdb6110_0_2.json
+{'captions': ["Close-up photo of an Asian woman's back,Realistic Skin, bright Natural light, Off shoulder, All hair is in a bun, street,"], 'clip_scores': [30.0], 'height': 1152, 'width': 896}
+4608 3584
+[Tiled VAE]: the input size is tiny and unnecessary to tile.
+[Tiled VAE]: the input size is tiny and unnecessary to tile.
+[Tiled VAE]: input_size: torch.Size([1, 3, 4608, 3584]), tile_size: 2048, padding: 32
+[Tiled VAE]: split to 3x2 = 6 tiles. Optimal tile size 1760x1536, original tile size 2048x2048
+[Tiled VAE]: Done in 26.630s, max VRAM alloc 25628.286 MB
+[Tiled VAE]: input_size: torch.Size([1, 4, 576, 448]), tile_size: 256, padding: 11
+[Tiled VAE]: split to 3x2 = 6 tiles. Optimal tile size 224x192, original tile size 256x256
+[('conv_in', Conv2d(4, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))), ('store_res', <function resblock2task.<locals>.<lambda> at 0x7f8468dd0790>), ('pre_norm', GroupNorm(32, 512, eps=1e-06, affine=True)), ('silu', <function inplace_nonlinearity at 0x7f846b4692d0>), ('conv1', Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))), ('pre_norm', GroupNorm(32, 512, eps=1e-06, affine=True)), ('silu', <function inplace_nonlinearity at 0x7f846b4692d0>), ('conv2', Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))), ['add_res', None], ('store_res', <function attn2task.<locals>.<lambda> at 0x7f8468dd09d0>), ('pre_norm', GroupNorm(32, 512, eps=1e-06, affine=True)), ('attn', <function attn2task.<locals>.<lambda> at 0x7f846b46aef0>), ['add_res', None]]
+[Tiled VAE]: Done in 49.609s, max VRAM alloc 29065.229 MB
+[Tiled VAE]: input_size: torch.Size([1, 3, 4608, 3584]), tile_size: 2048, padding: 32
+[Tiled VAE]: split to 3x2 = 6 tiles. Optimal tile size 1760x1536, original tile size 2048x2048
