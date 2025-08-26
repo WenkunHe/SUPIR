@@ -179,15 +179,12 @@ class ImageGenerator:
                             json.load(f)
                     except (IOError, OSError, json.JSONDecodeError):
                         pass
-                
-                print(json_name)
+
                 with tar.extractfile(json_name) as f:
                     content = f.read()
                     meta = json.loads(content)
 
-                print(meta)
                 height, width = meta["height"] * 4, meta["width"] * 4
-                print(height, width)
                 prompt = meta["prompt"] if "prompt" in meta else meta["captions"][0]
                 captions = meta["captions"] if "captions" in meta else [meta["prompt"]]
                 clip_scores = meta["clip_scores"] if "clip_scores" in meta else [30.0] * len(captions)
@@ -200,6 +197,7 @@ class ImageGenerator:
                 image.save(output_jpg_path)
                     
                 meta = {
+                    "prompt": prompt,
                     "captions": captions,
                     "clip_scores": clip_scores,
                     "height": height,

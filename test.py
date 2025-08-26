@@ -98,6 +98,7 @@ for img_pth in os.listdir(args.img_dir):
         captions = llava_agent.gen_image_caption([clean_PIL_img])
     else:
         captions = ['']
+    print(captions)
 
 
     # # step 3: Diffusion Process
