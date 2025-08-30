@@ -153,7 +153,7 @@ class ImageGenerator:
             except:
                 pass
 
-        tmp_tar_dir = save_tar_path.removesuffix(".tar")
+        tmp_tar_dir = save_tar_path.replace(".tar", "")
         os.makedirs(tmp_tar_dir, exist_ok=True)
 
         output_jpg_paths = []
