@@ -36,7 +36,7 @@ from typing import TypeVar
 T = TypeVar("T")
 
 
-def get_config(config_class: type[T]) -> T:
+def get_config(config_class) -> T:
     cfg = OmegaConf.structured(config_class)
 
     additional_cfg = OmegaConf.from_cli()
